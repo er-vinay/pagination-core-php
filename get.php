@@ -7,7 +7,7 @@ $comment = $_POST['Comment'];
 
 //Save visitor name and entered message into one variable:
 $formcontent="Visitor Name: $name.  \r\n Last Name: $last. \r\n Email: $email.  \r\n Phone No: $phone.  \r\n Comment: $comment. ";
-$recipient = "info@designhost.in, anil@designhost.in, sale@designhost.in, info.designhost@gmail.com ";
+$recipient = "info@gmail.in ";
 $subject = "Enquiry Form";
 $mailheader = "From: $email\\r\\n";
 $mailheader .= "Reply-To: $email\\r\\n";
